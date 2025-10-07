@@ -1,0 +1,57 @@
+* {
+    outline: 1px solid red;
+}
+
+body {
+    /* height: 100vh; */
+    margin: 0px 128px;
+    /* overflow: hidden; */
+}
+
+h1, p{
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-links {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* padding-right: 128px; */
+    gap: 24px;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-images {
+    display: flex;
+    justify-content:space-between;
+}
+
+.plants {
+    display: flex;
+    /* justify-content: space-between; */
+}
